@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Basics{
     public static void main(String[] args){
         Ques q= new Ques();
@@ -7,13 +5,13 @@ class Basics{
         // System.out.println(q.factorial(4));.
         // q.even(12);
         
-        int[] a1= {1, 2, 13, 4, 5};
-        int[] a2= q.copyarr(a1);
+        // int[] a1= {1, 2, 13, 4, 5};
+        // int[] a2= q.copyarr(a1);
         // for(int i=0; i< a2.length; i++){
         //     System.out.println(a2[i]);
         // }
 
-        int[] a3= Arrays.copyOf(a1, 5);
+        // int[] a3= Arrays.copyOf(a1, 5);
         // for(int i=0; i< a3.length; i++){
         //     System.out.println(a3[i]);
         // }
