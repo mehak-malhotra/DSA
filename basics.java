@@ -1,4 +1,4 @@
-class Basics{
+class basics{
     public static void main(String[] args){
         Ques q= new Ques();
         // System.out.println(q.sum(4));
@@ -22,7 +22,6 @@ class Basics{
 }
 
 class Ques{
-
     int binarySearch(int[] arr, int num){
         int s= 0; 
         int e= arr.length -1;

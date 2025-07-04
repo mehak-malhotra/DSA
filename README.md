@@ -11,3 +11,9 @@ This repository contains my Java code for learning and practicing DSA concepts.
 
 - Clone the repo.
 - Open `.java` files to explore logic and implementation.
+
+How to upload files from local to remote:
+
+git add .
+git commit -m "Message"
+git push origin main
