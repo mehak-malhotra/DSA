@@ -1,5 +1,5 @@
 # DSA
-This repository contains my Java code for learning and practicing DSA concepts.
+This repository contains my Java code for learning and practicing DSA concepts. 
 
 ## 📁 Topics Covered
 

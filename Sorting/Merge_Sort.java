@@ -51,3 +51,47 @@ class Solution {
         }
     }
 }
+
+// optimised code
+class Solution1{
+    
+    void mergeSort(int arr[], int low, int high){
+        int[] temp= new int[arr.length];
+        mergeSortFunc(arr, temp, low, high);
+    }
+    
+    void mergeSortFunc(int arr[], int[] temp, int low, int high) {
+        if(low >= high) return;
+        int mid= low + (high-low)/2;
+        mergeSortFunc(arr, temp, low, mid);
+        mergeSortFunc(arr, temp, mid+1, high);
+        merge(arr, temp, low, mid, high);
+    }
+    
+    void merge(int[] arr, int[] temp, int low, int mid, int high){
+        int i= low;
+        int j= mid+1;
+        int k= low;
+        
+        while(i <= mid && j <= high){
+            if(arr[i] <= arr[j]){
+                temp[k++]= arr[i++];
+            }else{
+                temp[k++]= arr[j++];
+            }
+        }
+        
+        while(i <= mid){
+            temp[k++] = arr[i++];
+        }
+        
+        while(j<= high){
+            temp[k++]= arr[j++];
+        }
+        
+        for(int l=low; l<=high; l++){
+            arr[l]= temp[l];
+        }
+    }
+    
+}
