@@ -1,5 +1,3 @@
-package Sorting;
-
 // Platform: Geeksforgeeks
 // Problem: Bubble Sort
 // Link: https://www.geeksforgeeks.org/problems/bubble-sort/1

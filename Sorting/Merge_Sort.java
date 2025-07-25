@@ -1,5 +1,3 @@
-package Sorting;
-
 // Platform: Geeksforgeeks
 // Problem: Merge Sort
 // Link: https://www.geeksforgeeks.org/problems/merge-sort/1

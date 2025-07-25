@@ -1,5 +1,3 @@
-package Sorting;
-
 // Platform: Geeksforgeeks
 // Problem: Selection Sort
 // Link: https://www.geeksforgeeks.org/problems/selection-sort/1

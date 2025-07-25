@@ -1,5 +1,3 @@
-package Sorting;
-
 // Platform: Geeksforgeeks
 // Problem: Insertion Sort
 // Link: hhttps://www.geeksforgeeks.org/problems/insertion-sort/1
