@@ -1,0 +1,40 @@
+// Platform: Leetcode
+// Problem: 875. Koko Eating Bananas
+// Link: https://leetcode.com/problems/koko-eating-bananas/description/
+
+class Solution {
+
+    int max(int[] piles){
+        int maxi= piles[0];
+        for(int i: piles){
+            if(i > maxi) maxi= i;
+        }
+        return maxi;
+    }
+    
+    boolean canEat(int[] piles, int mid, int h){
+        long hours= 0;
+        for(int i:piles){
+            hours+= (i+mid-1)/mid;
+            if(hours > h) return false;
+        }
+
+        return hours <=h;
+    }
+
+    public int minEatingSpeed(int[] piles, int h) {
+        int s= 1;
+        int e= max(piles);
+
+        while(s<=e){
+            int mid= s+ (e-s)/2;
+            if(canEat(piles, mid, h)){
+                e= mid-1;
+            }else{
+                s= mid+1;
+            }
+        }
+
+        return s;
+    }
+}
