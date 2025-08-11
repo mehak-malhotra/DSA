@@ -1,5 +1,3 @@
-package Arrays;
-
 // Platform: Leetcode
 // Problem: 75. Sort Colors
 // Link: https://leetcode.com/problems/sort-colors/description/
