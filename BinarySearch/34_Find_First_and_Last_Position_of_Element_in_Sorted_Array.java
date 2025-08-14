@@ -1,5 +1,3 @@
-package BinarySearch;
-
 // Platform: Leetcode
 // Problem: 34. Find First and Last Position of Element in Sorted Array
 // Link: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/

@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solve
 {
       // The first argument is the number of bits. You need to save all binary strings in the ArrayList passed as 4th argument named strs.
