@@ -1,4 +1,3 @@
-package StringAlgorithms;
 import java.util.*;
 
 class Solution {
